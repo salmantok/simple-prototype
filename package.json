@@ -1,6 +1,6 @@
 {
   "name": "simple-prototype",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple-prototype adalah class JavaScript untuk menangani prototype secara efisien, mendukung pembuatan object, pewarisan, komposisi, pengelolaan property/method, delegasi, dan cloning prototype.",
   "main": "index.js",
   "type": "module",
