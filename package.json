@@ -1,0 +1,31 @@
+{
+  "name": "simple-prototype",
+  "version": "0.0.0",
+  "description": "simple-prototype adalah class JavaScript untuk menangani prototype secara efisien, mendukung pembuatan object, pewarisan, komposisi, pengelolaan property/method, delegasi, dan cloning prototype.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/plugin.js"
+  },
+  "keywords": [
+    "simple-prototype",
+    "prototype",
+    "prototypes",
+    "object",
+    "objects",
+    "method",
+    "methods",
+    "property",
+    "properties"
+  ],
+  "author": "salmantok",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmantok/simple-prototype.git"
+  },
+  "homepage": "https://github.com/salmantok/simple-prototype#readme",
+  "files": [
+    "index.js"
+  ]
+}
