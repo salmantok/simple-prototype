@@ -27,5 +27,8 @@
   "homepage": "https://github.com/salmantok/simple-prototype#readme",
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "node-plug": "^0.0.1"
+  }
 }
