@@ -28,7 +28,7 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {
+  "devDependencies": {
     "node-plug": "^0.0.1"
   }
 }
