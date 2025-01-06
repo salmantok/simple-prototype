@@ -2,8 +2,14 @@
   "name": "simple-prototype",
   "version": "0.0.3",
   "description": "simple-prototype adalah class JavaScript untuk menangani prototype secara efisien, mendukung pembuatan object, pewarisan, komposisi, pengelolaan property/method, delegasi, dan cloning prototype.",
-  "main": "index.js",
-  "type": "module",
+  "source": "index.js",
+  "exports": {
+    "require": "dist/index.cjs",
+    "default": "dist/index.modern.js"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
   "scripts": {
     "test": "node test/plugin.js"
   },
@@ -26,7 +32,7 @@
   },
   "homepage": "https://github.com/salmantok/simple-prototype#readme",
   "files": [
-    "index.js"
+    "dist"
   ],
   "devDependencies": {
     "node-plug": "^0.0.1"

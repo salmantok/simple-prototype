@@ -2,6 +2,8 @@
 
 `simple-prototype` adalah class JavaScript untuk menangani prototype secara efisien, mendukung pembuatan object, pewarisan, komposisi, pengelolaan property/method, delegasi, dan cloning prototype.
 
+## `simple-prototype` dibundel dengan `microbundle`
+
 ## Instalasi
 
 ```bash
@@ -11,7 +13,11 @@ npm install simple-prototype
 ## Contoh
 
 ```js
+// esm
 import { proto } from 'simple-prototype'
+
+// commonjs
+const { proto } = require('simple-prototype')
 
 proto
 ```
