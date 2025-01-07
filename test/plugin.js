@@ -1,5 +1,5 @@
 import { addPlugin, runPlugin, test } from 'node-plug'
-import { proto } from '../index.js'
+import { proto } from '../dist/foo.cjs'
 
 let t = {
   async run() {
